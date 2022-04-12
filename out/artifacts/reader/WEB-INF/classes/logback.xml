@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--   %-5level: 表示占五个字符，level：debug、info、error
+                   %thread：线程名
+                   %logger：哪个类的哪个方法产生的日志
+                   %msg：哪个类产生的消息
+                   %n：换行
+                   -->
+            <pattern>%d{HH:mm:ss SSSS} %-5level [%thread] %logger{30} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <!-- 应用:
+        level: 最低的追加级别
+    -->
+    <root level="debug">
+        <appender-ref ref="console"/>
+    </root>
+</configuration>

@@ -43,7 +43,7 @@ MP整合三部曲：
    1. @TableName - 本类与表名映射  
    2. @TableId - 说明对应属性是表的主键  
    3. @TableField - 设置属性与列名的对应关系  
-    
+      ![](https://gitee.com/leekinghou/image/raw/master/img/20220308230214.png)
 2. 创建Mapper接口继承BaseMapper，创建Mapper XML  
 3. 开发时注入Mapper对象，通过内置API实现CRUD操作  
 
