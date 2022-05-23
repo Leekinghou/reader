@@ -55,7 +55,7 @@
         <property name="url" value="jdbc:mysql://localhost:3306/imooc_reader?useSSL=false&amp;serverTimezone=UTC&amp;&amp;allowPublicKeyRetrieval=true"/>
         <property name="username" value="root"/>
         <property name="password" value="MysqlSwan0716"/>
-<!--        初始化时设置多少个数据库连接-->
+        <!-- 初始化时设置多少个数据库连接 -->
         <property name="initialSize" value="5"/>
         <property name="maxActive" value="20"/>
     </bean>
@@ -99,4 +99,7 @@
             </bean>
         </property>
     </bean>
+
+    <!--开启Spring task定时任务的注解-->
+<!--    <task:annotation-driven/>-->
 </beans>

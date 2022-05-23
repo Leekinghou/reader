@@ -8,4 +8,8 @@ import com.reader.Entity.Book;
  * @date: 2022/03/08 14:57
  */
 public interface BookMapper extends BaseMapper<Book> {
+    /**
+     * 更新图书评分/评价数量
+     */
+    void updateEvaluation();
 }
