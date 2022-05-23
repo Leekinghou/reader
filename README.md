@@ -45,5 +45,24 @@ MP整合三部曲：
    3. @TableField - 设置属性与列名的对应关系  
       ![](https://gitee.com/leekinghou/image/raw/master/img/20220308230214.png)
 2. 创建Mapper接口继承BaseMapper，创建Mapper XML  
-3. 开发时注入Mapper对象，通过内置API实现CRUD操作  
+3. 开发时注入Mapper对象，通过内置API实现CRUD操作 
+
+## 项目功能
+1. 显示图书类别
+2. 实现图书分页查询
+3. 实现图书列表分页查询
+4. 实现图书多条件动态查询
+5. 图书详情页-读取图书信息
+6. 图书详情页-显示评论列表
+7. Kaptcha验证码的配置与使用、比对
+8. 实现会员注册、登录功能
+     
+会员交互功能：
+9. 获取、更新会员阅读状态
+10. 实现写短评功能
+11. 实现会员点赞功能
+12. Spring-Task定时任务(Spring 3.0+、周期性后台自动执行任务、利用Cron表达式实现灵活的定时处理)
+    ![](https://gitee.com/leekinghou/image/raw/master/img/20220523165125.png)
+13. 
+
 
